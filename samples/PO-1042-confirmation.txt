@@ -1,0 +1,19 @@
+NORDLICHT MANUFACTURING
+ORDER CONFIRMATION
+To: Northstar Goods Procurement
+Date: 2 November 2026
+Thank you for your order. We confirm the following supply schedule.
+Order ID: PO-1042
+Supplier ID: SUP-NORD
+Supplier: Nordlicht Manufacturing (fictional)
+Payment terms: Net 30
+
+SKU | description | quantity | unit_price | currency | delivery_date
+BOT-750 | 750 ml insulated bottle | 800 | 12.50 | EUR | 2026-11-12
+
+The balance of 200 units is pending production allocation; we cannot yet confirm a dispatch date.
+
+Kind regards,
+Anna Keller
+Supplier Sales Administration
+Fictional portfolio sample; no real transaction.

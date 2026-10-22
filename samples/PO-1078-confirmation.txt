@@ -1,0 +1,19 @@
+NORDLICHT MANUFACTURING
+ORDER CONFIRMATION
+To: Northstar Goods Procurement
+Date: 2 November 2026
+Thank you for your order. We confirm the following supply schedule.
+Order ID: PO-1078
+Supplier ID: SUP-NORD
+Supplier: Nordlicht Manufacturing (fictional)
+Payment terms: Net 30
+
+SKU | description | quantity | unit_price | currency | delivery_date
+LUNCH-900 | 900 ml lunch box | 600 | 18.00 | EUR | 2026-11-26
+
+Production scheduling has moved arrival to 26 November. Please acknowledge receipt.
+
+Kind regards,
+Anna Keller
+Supplier Sales Administration
+Fictional portfolio sample; no real transaction.

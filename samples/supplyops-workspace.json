@@ -1,0 +1,2180 @@
+{
+  "version": 2,
+  "as_of": "2026-11-10",
+  "orders": {
+    "PO-1042": {
+      "order_id": "PO-1042",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "BOT-750",
+          "description": "750 ml insulated bottle",
+          "quantity": "1000",
+          "unit_price": "12.5",
+          "currency": "EUR",
+          "delivery_date": "2026-11-12"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1078": {
+      "order_id": "PO-1078",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "LUNCH-900",
+          "description": "900 ml lunch box",
+          "quantity": "600",
+          "unit_price": "18",
+          "currency": "EUR",
+          "delivery_date": "2026-11-12"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1095": {
+      "order_id": "PO-1095",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "TOTE-01",
+          "description": "Canvas market tote",
+          "quantity": "500",
+          "unit_price": "8",
+          "currency": "EUR",
+          "delivery_date": "2026-11-20"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1036": {
+      "order_id": "PO-1036",
+      "supplier_id": "SUP-MUG",
+      "supplier": "Meridian Ceramics (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "MUG-350",
+          "description": "Mug 350",
+          "quantity": "100",
+          "unit_price": "6",
+          "currency": "EUR",
+          "delivery_date": "2026-11-04"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1039": {
+      "order_id": "PO-1039",
+      "supplier_id": "SUP-JAR",
+      "supplier": "Clearview Glass (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "JAR-500",
+          "description": "Jar 500",
+          "quantity": "200",
+          "unit_price": "4.5",
+          "currency": "EUR",
+          "delivery_date": "2026-11-05"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1051": {
+      "order_id": "PO-1051",
+      "supplier_id": "SUP-BRUSH",
+      "supplier": "Greenwood Tools (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "BRUSH-01",
+          "description": "Brush 01",
+          "quantity": "300",
+          "unit_price": "3",
+          "currency": "EUR",
+          "delivery_date": "2026-11-08"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1060": {
+      "order_id": "PO-1060",
+      "supplier_id": "SUP-CUP",
+      "supplier": "Meridian Ceramics (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "CUP-200",
+          "description": "Cup 200",
+          "quantity": "400",
+          "unit_price": "5",
+          "currency": "EUR",
+          "delivery_date": "2026-11-16"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1064": {
+      "order_id": "PO-1064",
+      "supplier_id": "SUP-MAT",
+      "supplier": "Woven Works (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "MAT-01",
+          "description": "Mat 01",
+          "quantity": "250",
+          "unit_price": "7",
+          "currency": "EUR",
+          "delivery_date": "2026-11-18"
+        }
+      ],
+      "created_on": "2026-11-09"
+    },
+    "PO-1071": {
+      "order_id": "PO-1071",
+      "supplier_id": "SUP-NAPKIN",
+      "supplier": "Woven Works (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "NAPKIN-01",
+          "description": "Napkin 01",
+          "quantity": "500",
+          "unit_price": "2.5",
+          "currency": "EUR",
+          "delivery_date": "2026-11-22"
+        }
+      ],
+      "created_on": "2026-10-28"
+    },
+    "PO-1102": {
+      "order_id": "PO-1102",
+      "supplier_id": "SUP-BASKET",
+      "supplier": "Willow Studio (fictional)",
+      "payment_terms": "Net 30",
+      "notes": null,
+      "lines": [
+        {
+          "sku": "BASKET-01",
+          "description": "Basket 01",
+          "quantity": "150",
+          "unit_price": "11",
+          "currency": "EUR",
+          "delivery_date": "2026-11-25"
+        }
+      ],
+      "created_on": "2026-11-09"
+    }
+  },
+  "events": [
+    {
+      "id": "EVT-00001",
+      "sequence": 1,
+      "order_id": "PO-1042",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1042",
+          "supplier_id": "SUP-NORD",
+          "supplier": "Nordlicht Manufacturing (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "BOT-750",
+              "description": "750 ml insulated bottle",
+              "quantity": "1000",
+              "unit_price": "12.5",
+              "currency": "EUR",
+              "delivery_date": "2026-11-12"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00002",
+      "sequence": 2,
+      "order_id": "PO-1042",
+      "kind": "confirmation",
+      "effective_on": "2026-11-02",
+      "payload": {
+        "lines": [
+          {
+            "sku": "BOT-750",
+            "description": "750 ml insulated bottle",
+            "quantity": "800",
+            "delivery_date": "2026-11-12",
+            "unit_price": "12.5",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "The balance of 200 units is pending production allocation; we cannot yet confirm a dispatch date."
+      }
+    },
+    {
+      "id": "EVT-00003",
+      "sequence": 3,
+      "order_id": "PO-1042",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "BOT-750": {
+            "available": 150,
+            "as_of": "2026-11-10",
+            "note": "Unallocated usable stock; no other inbound receipts recorded."
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00004",
+      "sequence": 4,
+      "order_id": "PO-1042",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "BOT-750": [
+            {
+              "customer": "DTC replenishment",
+              "quantity": 450,
+              "due": "2026-11-14"
+            },
+            {
+              "customer": "Haven Retail",
+              "quantity": 600,
+              "due": "2026-11-18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "EVT-00005",
+      "sequence": 5,
+      "order_id": "PO-1042",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-NORD": {
+            "unit_prices": {
+              "BOT-750": "12.50"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "valid_until": "2026-12-31"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00006",
+      "sequence": 6,
+      "order_id": "PO-1042",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "BOT-750": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00007",
+      "sequence": 7,
+      "order_id": "PO-1078",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1078",
+          "supplier_id": "SUP-NORD",
+          "supplier": "Nordlicht Manufacturing (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "LUNCH-900",
+              "description": "900 ml lunch box",
+              "quantity": "600",
+              "unit_price": "18",
+              "currency": "EUR",
+              "delivery_date": "2026-11-12"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00008",
+      "sequence": 8,
+      "order_id": "PO-1078",
+      "kind": "confirmation",
+      "effective_on": "2026-11-02",
+      "payload": {
+        "lines": [
+          {
+            "sku": "LUNCH-900",
+            "description": "900 ml lunch box",
+            "quantity": "600",
+            "delivery_date": "2026-11-26",
+            "unit_price": "18",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "Production scheduling has moved arrival to 26 November. Please acknowledge receipt."
+      }
+    },
+    {
+      "id": "EVT-00009",
+      "sequence": 9,
+      "order_id": "PO-1078",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "LUNCH-900": {
+            "available": 120,
+            "as_of": "2026-11-10",
+            "note": "Unallocated usable stock; no other inbound receipts recorded."
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00010",
+      "sequence": 10,
+      "order_id": "PO-1078",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "LUNCH-900": [
+            {
+              "customer": "Elm Stores",
+              "quantity": 350,
+              "due": "2026-11-16"
+            },
+            {
+              "customer": "DTC replenishment",
+              "quantity": 200,
+              "due": "2026-11-23"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "EVT-00011",
+      "sequence": 11,
+      "order_id": "PO-1078",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-NORD": {
+            "unit_prices": {
+              "LUNCH-900": "18.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "valid_until": "2026-12-31"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00012",
+      "sequence": 12,
+      "order_id": "PO-1078",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "LUNCH-900": [
+            {
+              "supplier": "Baltic Components (fictional)",
+              "quantity": 250,
+              "earliest_arrival": "2026-11-13",
+              "status": "Indicative availability; no reservation or approved purchase"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "EVT-00013",
+      "sequence": 13,
+      "order_id": "PO-1095",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1095",
+          "supplier_id": "SUP-NORD",
+          "supplier": "Nordlicht Manufacturing (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "TOTE-01",
+              "description": "Canvas market tote",
+              "quantity": "500",
+              "unit_price": "8",
+              "currency": "EUR",
+              "delivery_date": "2026-11-20"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00014",
+      "sequence": 14,
+      "order_id": "PO-1095",
+      "kind": "confirmation",
+      "effective_on": "2026-11-02",
+      "payload": {
+        "lines": [
+          {
+            "sku": "TOTE-01",
+            "description": "Canvas market tote",
+            "quantity": "500",
+            "delivery_date": "2026-11-20",
+            "unit_price": "8.8",
+            "currency": "EUR",
+            "payment_terms": "50% advance, balance before dispatch",
+            "notes": ""
+          }
+        ],
+        "notes": "Our revised price and advance-payment schedule apply to this confirmation. Please advise your acceptance."
+      }
+    },
+    {
+      "id": "EVT-00015",
+      "sequence": 15,
+      "order_id": "PO-1095",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "TOTE-01": {
+            "available": 200,
+            "as_of": "2026-11-10",
+            "note": "Unallocated usable stock; no other inbound receipts recorded."
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00016",
+      "sequence": 16,
+      "order_id": "PO-1095",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "TOTE-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00017",
+      "sequence": 17,
+      "order_id": "PO-1095",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-NORD": {
+            "unit_prices": {
+              "TOTE-01": "8.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "valid_until": "2026-12-31"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00018",
+      "sequence": 18,
+      "order_id": "PO-1095",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "TOTE-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00019",
+      "sequence": 19,
+      "order_id": "PO-1036",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1036",
+          "supplier_id": "SUP-MUG",
+          "supplier": "Meridian Ceramics (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "MUG-350",
+              "description": "Mug 350",
+              "quantity": "100",
+              "unit_price": "6",
+              "currency": "EUR",
+              "delivery_date": "2026-11-04"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00020",
+      "sequence": 20,
+      "order_id": "PO-1036",
+      "kind": "confirmation",
+      "effective_on": "2026-11-01",
+      "payload": {
+        "lines": [
+          {
+            "sku": "MUG-350",
+            "description": "Mug 350",
+            "quantity": "100",
+            "delivery_date": "2026-11-04",
+            "unit_price": "6",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "Delivery schedule confirmed."
+      }
+    },
+    {
+      "id": "EVT-00021",
+      "sequence": 21,
+      "order_id": "PO-1036",
+      "kind": "receipt",
+      "effective_on": "2026-11-04",
+      "payload": {
+        "lines": [
+          {
+            "sku": "MUG-350",
+            "quantity": "40",
+            "expected_at_receipt": "2026-11-04",
+            "expected_source": "EVT-00020",
+            "original_requested_date": "2026-11-04"
+          }
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "EVT-00022",
+      "sequence": 22,
+      "order_id": "PO-1036",
+      "kind": "receipt",
+      "effective_on": "2026-11-04",
+      "payload": {
+        "lines": [
+          {
+            "sku": "MUG-350",
+            "quantity": "60",
+            "expected_at_receipt": "2026-11-04",
+            "expected_source": "EVT-00020",
+            "original_requested_date": "2026-11-04"
+          }
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "EVT-00023",
+      "sequence": 23,
+      "order_id": "PO-1036",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "MUG-350": {
+            "available": "100",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00024",
+      "sequence": 24,
+      "order_id": "PO-1036",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "MUG-350": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00025",
+      "sequence": 25,
+      "order_id": "PO-1036",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-MUG": {
+            "unit_prices": {
+              "MUG-350": "6.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00026",
+      "sequence": 26,
+      "order_id": "PO-1036",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "MUG-350": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00027",
+      "sequence": 27,
+      "order_id": "PO-1039",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1039",
+          "supplier_id": "SUP-JAR",
+          "supplier": "Clearview Glass (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "JAR-500",
+              "description": "Jar 500",
+              "quantity": "200",
+              "unit_price": "4.5",
+              "currency": "EUR",
+              "delivery_date": "2026-11-05"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00028",
+      "sequence": 28,
+      "order_id": "PO-1039",
+      "kind": "confirmation",
+      "effective_on": "2026-11-01",
+      "payload": {
+        "lines": [
+          {
+            "sku": "JAR-500",
+            "description": "Jar 500",
+            "quantity": "200",
+            "delivery_date": "2026-11-05",
+            "unit_price": "4.5",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "Delivery schedule confirmed."
+      }
+    },
+    {
+      "id": "EVT-00029",
+      "sequence": 29,
+      "order_id": "PO-1039",
+      "kind": "receipt",
+      "effective_on": "2026-11-07",
+      "payload": {
+        "lines": [
+          {
+            "sku": "JAR-500",
+            "quantity": "200",
+            "expected_at_receipt": "2026-11-05",
+            "expected_source": "EVT-00028",
+            "original_requested_date": "2026-11-05"
+          }
+        ],
+        "note": "Delivery received two days after requested date."
+      }
+    },
+    {
+      "id": "EVT-00030",
+      "sequence": 30,
+      "order_id": "PO-1039",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "JAR-500": {
+            "available": "200",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00031",
+      "sequence": 31,
+      "order_id": "PO-1039",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "JAR-500": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00032",
+      "sequence": 32,
+      "order_id": "PO-1039",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-JAR": {
+            "unit_prices": {
+              "JAR-500": "4.50"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00033",
+      "sequence": 33,
+      "order_id": "PO-1039",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "JAR-500": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00034",
+      "sequence": 34,
+      "order_id": "PO-1051",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1051",
+          "supplier_id": "SUP-BRUSH",
+          "supplier": "Greenwood Tools (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "BRUSH-01",
+              "description": "Brush 01",
+              "quantity": "300",
+              "unit_price": "3",
+              "currency": "EUR",
+              "delivery_date": "2026-11-08"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00035",
+      "sequence": 35,
+      "order_id": "PO-1051",
+      "kind": "confirmation",
+      "effective_on": "2026-11-01",
+      "payload": {
+        "lines": [
+          {
+            "sku": "BRUSH-01",
+            "description": "Brush 01",
+            "quantity": "300",
+            "delivery_date": "2026-11-08",
+            "unit_price": "3",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "Delivery schedule confirmed."
+      }
+    },
+    {
+      "id": "EVT-00036",
+      "sequence": 36,
+      "order_id": "PO-1051",
+      "kind": "receipt",
+      "effective_on": "2026-11-08",
+      "payload": {
+        "lines": [
+          {
+            "sku": "BRUSH-01",
+            "quantity": "100",
+            "expected_at_receipt": "2026-11-08",
+            "expected_source": "EVT-00035",
+            "original_requested_date": "2026-11-08"
+          }
+        ],
+        "note": "First partial delivery received; balance pending."
+      }
+    },
+    {
+      "id": "EVT-00037",
+      "sequence": 37,
+      "order_id": "PO-1051",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "BRUSH-01": {
+            "available": "100",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00038",
+      "sequence": 38,
+      "order_id": "PO-1051",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "BRUSH-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00039",
+      "sequence": 39,
+      "order_id": "PO-1051",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-BRUSH": {
+            "unit_prices": {
+              "BRUSH-01": "3.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00040",
+      "sequence": 40,
+      "order_id": "PO-1051",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "BRUSH-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00041",
+      "sequence": 41,
+      "order_id": "PO-1060",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1060",
+          "supplier_id": "SUP-CUP",
+          "supplier": "Meridian Ceramics (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "CUP-200",
+              "description": "Cup 200",
+              "quantity": "400",
+              "unit_price": "5",
+              "currency": "EUR",
+              "delivery_date": "2026-11-16"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00042",
+      "sequence": 42,
+      "order_id": "PO-1060",
+      "kind": "confirmation",
+      "effective_on": "2026-11-01",
+      "payload": {
+        "lines": [
+          {
+            "sku": "CUP-200",
+            "description": "Cup 200",
+            "quantity": "400",
+            "delivery_date": "2026-11-16",
+            "unit_price": "5",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "Delivery schedule confirmed."
+      }
+    },
+    {
+      "id": "EVT-00043",
+      "sequence": 43,
+      "order_id": "PO-1060",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "CUP-200": {
+            "available": "50",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00044",
+      "sequence": 44,
+      "order_id": "PO-1060",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "CUP-200": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00045",
+      "sequence": 45,
+      "order_id": "PO-1060",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-CUP": {
+            "unit_prices": {
+              "CUP-200": "5.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00046",
+      "sequence": 46,
+      "order_id": "PO-1060",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "CUP-200": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00047",
+      "sequence": 47,
+      "order_id": "PO-1064",
+      "kind": "order_created",
+      "effective_on": "2026-11-09",
+      "payload": {
+        "order": {
+          "order_id": "PO-1064",
+          "supplier_id": "SUP-MAT",
+          "supplier": "Woven Works (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "MAT-01",
+              "description": "Mat 01",
+              "quantity": "250",
+              "unit_price": "7",
+              "currency": "EUR",
+              "delivery_date": "2026-11-18"
+            }
+          ],
+          "created_on": "2026-11-09"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00048",
+      "sequence": 48,
+      "order_id": "PO-1064",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "MAT-01": {
+            "available": "50",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00049",
+      "sequence": 49,
+      "order_id": "PO-1064",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "MAT-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00050",
+      "sequence": 50,
+      "order_id": "PO-1064",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-MAT": {
+            "unit_prices": {
+              "MAT-01": "7.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00051",
+      "sequence": 51,
+      "order_id": "PO-1064",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "MAT-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00052",
+      "sequence": 52,
+      "order_id": "PO-1071",
+      "kind": "order_created",
+      "effective_on": "2026-10-28",
+      "payload": {
+        "order": {
+          "order_id": "PO-1071",
+          "supplier_id": "SUP-NAPKIN",
+          "supplier": "Woven Works (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "NAPKIN-01",
+              "description": "Napkin 01",
+              "quantity": "500",
+              "unit_price": "2.5",
+              "currency": "EUR",
+              "delivery_date": "2026-11-22"
+            }
+          ],
+          "created_on": "2026-10-28"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00053",
+      "sequence": 53,
+      "order_id": "PO-1071",
+      "kind": "confirmation",
+      "effective_on": "2026-11-01",
+      "payload": {
+        "lines": [
+          {
+            "sku": "NAPKIN-01",
+            "description": "Napkin 01",
+            "quantity": "500",
+            "delivery_date": "2026-11-22",
+            "unit_price": "2.5",
+            "currency": "EUR",
+            "payment_terms": "Net 30",
+            "notes": ""
+          }
+        ],
+        "notes": "Delivery schedule confirmed."
+      }
+    },
+    {
+      "id": "EVT-00054",
+      "sequence": 54,
+      "order_id": "PO-1071",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "NAPKIN-01": {
+            "available": "50",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00055",
+      "sequence": 55,
+      "order_id": "PO-1071",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "NAPKIN-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00056",
+      "sequence": 56,
+      "order_id": "PO-1071",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-NAPKIN": {
+            "unit_prices": {
+              "NAPKIN-01": "2.50"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00057",
+      "sequence": 57,
+      "order_id": "PO-1071",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "NAPKIN-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00058",
+      "sequence": 58,
+      "order_id": "PO-1102",
+      "kind": "order_created",
+      "effective_on": "2026-11-09",
+      "payload": {
+        "order": {
+          "order_id": "PO-1102",
+          "supplier_id": "SUP-BASKET",
+          "supplier": "Willow Studio (fictional)",
+          "payment_terms": "Net 30",
+          "notes": null,
+          "lines": [
+            {
+              "sku": "BASKET-01",
+              "description": "Basket 01",
+              "quantity": "150",
+              "unit_price": "11",
+              "currency": "EUR",
+              "delivery_date": "2026-11-25"
+            }
+          ],
+          "created_on": "2026-11-09"
+        },
+        "note": "Recorded in SupplyOps; not automatically issued to the supplier."
+      }
+    },
+    {
+      "id": "EVT-00059",
+      "sequence": 59,
+      "order_id": "PO-1102",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "inventory",
+        "records": {
+          "BASKET-01": {
+            "available": "50",
+            "as_of": "2026-11-10"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00060",
+      "sequence": 60,
+      "order_id": "PO-1102",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "commitments",
+        "records": {
+          "BASKET-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00061",
+      "sequence": 61,
+      "order_id": "PO-1102",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "terms",
+        "records": {
+          "SUP-BASKET": {
+            "unit_prices": {
+              "BASKET-01": "11.00"
+            },
+            "currency": "EUR",
+            "payment_terms": "Net 30"
+          }
+        }
+      }
+    },
+    {
+      "id": "EVT-00062",
+      "sequence": 62,
+      "order_id": "PO-1102",
+      "kind": "support_updated",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "kind": "alternatives",
+        "records": {
+          "BASKET-01": []
+        }
+      }
+    },
+    {
+      "id": "EVT-00063",
+      "sequence": 63,
+      "order_id": "PO-1042",
+      "kind": "followup_action",
+      "effective_on": "2026-11-10",
+      "payload": {
+        "issue_id": "PO-1042|BOT-750|quantity_shortfall",
+        "status": "Awaiting supplier",
+        "owner": "Lena Fischer",
+        "next_followup": "2026-11-11",
+        "note": "Requested a firm delivery plan for the remaining 200 units. Sample action record only; SupplyOps did not send a message.",
+        "draft": "",
+        "message_sent": false
+      }
+    }
+  ],
+  "issues": {
+    "PO-1042|BOT-750|missing_confirmation": {
+      "id": "PO-1042|BOT-750|missing_confirmation",
+      "order_id": "PO-1042",
+      "sku": "BOT-750",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "87f71afe397c886db7bd033903aeb0fe53991295dcd6e2b6162aca0d1634fd7d",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1042|BOT-750|quantity_shortfall": {
+      "id": "PO-1042|BOT-750|quantity_shortfall",
+      "order_id": "PO-1042",
+      "sku": "BOT-750",
+      "kind": "quantity_shortfall",
+      "title": "Supplier quantity shortfall",
+      "detail": "800 confirmed against 1,000 ordered; 200 units unconfirmed.",
+      "fingerprint": "5f1f075ee951433b57fecbe8a7f132b01ae93f6946a933a8b7d4d6b5c7f81ad2",
+      "detected": true,
+      "status": "Awaiting supplier",
+      "owner": "Lena Fischer",
+      "next_followup": "2026-11-11",
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "800 confirmed against 1,000 ordered; 200 units unconfirmed."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Employee action recorded",
+          "source": "EVT-00063",
+          "issue_id": "PO-1042|BOT-750|quantity_shortfall",
+          "status": "Awaiting supplier",
+          "owner": "Lena Fischer",
+          "next_followup": "2026-11-11",
+          "note": "Requested a firm delivery plan for the remaining 200 units. Sample action record only; SupplyOps did not send a message.",
+          "draft": "",
+          "message_sent": false
+        }
+      ]
+    },
+    "PO-1042|BOT-750|customer_conflict": {
+      "id": "PO-1042|BOT-750|customer_conflict",
+      "order_id": "PO-1042",
+      "sku": "BOT-750",
+      "kind": "customer_conflict",
+      "title": "Possible customer delivery conflict",
+      "detail": "Recorded stock and outstanding confirmed supply leave a possible gap of 100 units by 18 Nov 2026. Allocation and arrival assumptions need checking.",
+      "fingerprint": "198df96c50e8360dda0f4130b428ceddea082270a650c98639bfc519c79cb905",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "Recorded stock and outstanding confirmed supply leave a possible gap of 100 units by 18 Nov 2026. Allocation and arrival assumptions need checking."
+        }
+      ]
+    },
+    "PO-1078|LUNCH-900|missing_confirmation": {
+      "id": "PO-1078|LUNCH-900|missing_confirmation",
+      "order_id": "PO-1078",
+      "sku": "LUNCH-900",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "26e647976657a62bc8051a14ac71a71ac1b56cc9edf16d20dc53d4631a0eb1de",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1078|LUNCH-900|delivery_delay": {
+      "id": "PO-1078|LUNCH-900|delivery_delay",
+      "order_id": "PO-1078",
+      "sku": "LUNCH-900",
+      "kind": "delivery_delay",
+      "title": "Supplier delivery delay",
+      "detail": "Requested 12 Nov 2026; supplier now promises 26 Nov 2026 (14 days later).",
+      "fingerprint": "93028bad4091452208b46fc1c83a1137731020bfdbec44cf081be695a9406747",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "Requested 12 Nov 2026; supplier now promises 26 Nov 2026 (14 days later)."
+        }
+      ]
+    },
+    "PO-1078|LUNCH-900|customer_conflict": {
+      "id": "PO-1078|LUNCH-900|customer_conflict",
+      "order_id": "PO-1078",
+      "sku": "LUNCH-900",
+      "kind": "customer_conflict",
+      "title": "Possible customer delivery conflict",
+      "detail": "Recorded stock and outstanding confirmed supply leave a possible gap of 430 units by 23 Nov 2026. Allocation and arrival assumptions need checking.",
+      "fingerprint": "c1c2fe243d924887fe631ea2a504c41b479ea10ffe2687cc560c1ceb12c71073",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "Recorded stock and outstanding confirmed supply leave a possible gap of 430 units by 23 Nov 2026. Allocation and arrival assumptions need checking."
+        }
+      ]
+    },
+    "PO-1095|TOTE-01|missing_confirmation": {
+      "id": "PO-1095|TOTE-01|missing_confirmation",
+      "order_id": "PO-1095",
+      "sku": "TOTE-01",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "1e37cb1e288be1823bd159a1e575c54193bdfb020fb8e51dc358c8e2efcf372c",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1095|TOTE-01|price_change": {
+      "id": "PO-1095|TOTE-01|price_change",
+      "order_id": "PO-1095",
+      "sku": "TOTE-01",
+      "kind": "price_change",
+      "title": "Unit price changed",
+      "detail": "EUR 8.00 → 8.80 per unit; total variance 400.00 for the confirmed quantity.",
+      "fingerprint": "aeb3b27dd836ec70f095adeff13ce7535ad4cfe9e7769f3c84021f95ae69fc01",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "EUR 8.00 → 8.80 per unit; total variance 400.00 for the confirmed quantity."
+        }
+      ]
+    },
+    "PO-1095|TOTE-01|payment_change": {
+      "id": "PO-1095|TOTE-01|payment_change",
+      "order_id": "PO-1095",
+      "sku": "TOTE-01",
+      "kind": "payment_change",
+      "title": "Payment terms changed",
+      "detail": "Net 30 → 50% advance, balance before dispatch.",
+      "fingerprint": "6d433ab175b825bc5a2db5cbd30ef8cff295a1badc666700b4d00105b7f1e7d8",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "Net 30 → 50% advance, balance before dispatch."
+        }
+      ]
+    },
+    "PO-1036|MUG-350|missing_confirmation": {
+      "id": "PO-1036|MUG-350|missing_confirmation",
+      "order_id": "PO-1036",
+      "sku": "MUG-350",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "7ca2b0f6fafed1ebb686209910c14623e0b33eed085245d4577c0aa449ee79fb",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1036|MUG-350|outstanding_delivery": {
+      "id": "PO-1036|MUG-350|outstanding_delivery",
+      "order_id": "PO-1036",
+      "sku": "MUG-350",
+      "kind": "outstanding_delivery",
+      "title": "Delivery outstanding after expected date",
+      "detail": "60 units are still outstanding after 4 Nov 2026. A promise does not establish arrival.",
+      "fingerprint": "d1493accea746dc9af939d4fc6965c3f110ac0b3233a4cf06b6b96592261f890",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "100 units are still outstanding after 4 Nov 2026. A promise does not establish arrival."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Evidence updated",
+          "detail": "60 units are still outstanding after 4 Nov 2026. A promise does not establish arrival."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1036|MUG-350|partial_receipt": {
+      "id": "PO-1036|MUG-350|partial_receipt",
+      "order_id": "PO-1036",
+      "sku": "MUG-350",
+      "kind": "partial_receipt",
+      "title": "Partial delivery received",
+      "detail": "40 physically received; 60 still outstanding.",
+      "fingerprint": "d793542dd8b9f117400f8859c6c830cb985faaeb579c4fe59be211ee68786cfb",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "40 physically received; 60 still outstanding."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1039|JAR-500|missing_confirmation": {
+      "id": "PO-1039|JAR-500|missing_confirmation",
+      "order_id": "PO-1039",
+      "sku": "JAR-500",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "4d83a1f3e47b09a57f011d4bd69c80eaaed35d7122fbd598fca53a56f2f82d95",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1039|JAR-500|outstanding_delivery": {
+      "id": "PO-1039|JAR-500|outstanding_delivery",
+      "order_id": "PO-1039",
+      "sku": "JAR-500",
+      "kind": "outstanding_delivery",
+      "title": "Delivery outstanding after expected date",
+      "detail": "200 units are still outstanding after 5 Nov 2026. A promise does not establish arrival.",
+      "fingerprint": "383d2f758a5891a96c548bdeefff2caa6e23cffc2db206577d4a01bfde560dd1",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "200 units are still outstanding after 5 Nov 2026. A promise does not establish arrival."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1039|JAR-500|late_receipt": {
+      "id": "PO-1039|JAR-500|late_receipt",
+      "order_id": "PO-1039",
+      "sku": "JAR-500",
+      "kind": "late_receipt",
+      "title": "Goods arrived late",
+      "detail": "1 receipt(s) arrived after the original requested date or the promise known when recorded. Later promises do not change this history.",
+      "fingerprint": "94a4ecd6759c485616cbc9eb644f170bccbc7e4f94fe3b6b45d6bc53df9977a7",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "1 receipt(s) arrived after the original requested date or the promise known when recorded. Later promises do not change this history."
+        }
+      ]
+    },
+    "PO-1051|BRUSH-01|missing_confirmation": {
+      "id": "PO-1051|BRUSH-01|missing_confirmation",
+      "order_id": "PO-1051",
+      "sku": "BRUSH-01",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "fd961e90957c858d3abe0617d74542f80a1c9f7e7678f5b2984463aaac9cc80b",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1051|BRUSH-01|outstanding_delivery": {
+      "id": "PO-1051|BRUSH-01|outstanding_delivery",
+      "order_id": "PO-1051",
+      "sku": "BRUSH-01",
+      "kind": "outstanding_delivery",
+      "title": "Delivery outstanding after expected date",
+      "detail": "200 units are still outstanding after 8 Nov 2026. A promise does not establish arrival.",
+      "fingerprint": "af84a4122e8a5ed82ddbb312d938ee91d39883af30872f4a4f2ef2b3f86893cc",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "300 units are still outstanding after 8 Nov 2026. A promise does not establish arrival."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Evidence updated",
+          "detail": "200 units are still outstanding after 8 Nov 2026. A promise does not establish arrival."
+        }
+      ]
+    },
+    "PO-1051|BRUSH-01|partial_receipt": {
+      "id": "PO-1051|BRUSH-01|partial_receipt",
+      "order_id": "PO-1051",
+      "sku": "BRUSH-01",
+      "kind": "partial_receipt",
+      "title": "Partial delivery received",
+      "detail": "100 physically received; 200 still outstanding.",
+      "fingerprint": "700a63b89f98f51f74f790309908b0a72a5507d6c12eacd76e8863f2d22c50cf",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "100 physically received; 200 still outstanding."
+        }
+      ]
+    },
+    "PO-1060|CUP-200|missing_confirmation": {
+      "id": "PO-1060|CUP-200|missing_confirmation",
+      "order_id": "PO-1060",
+      "sku": "CUP-200",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "0816e7524944c74b4394cef012fd14b8495d4ae44cb16d08647a8f03cc314c51",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1064|MAT-01|missing_confirmation": {
+      "id": "PO-1064|MAT-01|missing_confirmation",
+      "order_id": "PO-1064",
+      "sku": "MAT-01",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "cdc63ffb46088c873be8ca491fbe05a6f8edaf1a6e51c56d45e67c73e396e89a",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        }
+      ]
+    },
+    "PO-1071|NAPKIN-01|missing_confirmation": {
+      "id": "PO-1071|NAPKIN-01|missing_confirmation",
+      "order_id": "PO-1071",
+      "sku": "NAPKIN-01",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "1e37cb1e288be1823bd159a1e575c54193bdfb020fb8e51dc358c8e2efcf372c",
+      "detected": false,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        },
+        {
+          "on": "2026-11-10",
+          "event": "Discrepancy no longer detected",
+          "detail": "The latest records no longer show this condition. Review the resolution; previous actions remain recorded."
+        }
+      ]
+    },
+    "PO-1102|BASKET-01|missing_confirmation": {
+      "id": "PO-1102|BASKET-01|missing_confirmation",
+      "order_id": "PO-1102",
+      "sku": "BASKET-01",
+      "kind": "missing_confirmation",
+      "title": "Awaiting supplier confirmation",
+      "detail": "No supplier commitment is recorded for this product.",
+      "fingerprint": "ab84abdda20c8cf813f0a2ff031b47ca0e1bd334c148c7e01f33f527382b73dd",
+      "detected": true,
+      "status": "Open",
+      "owner": "",
+      "next_followup": null,
+      "history": [
+        {
+          "on": "2026-11-10",
+          "event": "Issue detected",
+          "detail": "No supplier commitment is recorded for this product."
+        }
+      ]
+    }
+  },
+  "investigations": [],
+  "support": {
+    "PO-1042": {
+      "inventory": {
+        "BOT-750": {
+          "available": 150,
+          "as_of": "2026-11-10",
+          "note": "Unallocated usable stock; no other inbound receipts recorded."
+        }
+      },
+      "commitments": {
+        "BOT-750": [
+          {
+            "customer": "DTC replenishment",
+            "quantity": 450,
+            "due": "2026-11-14"
+          },
+          {
+            "customer": "Haven Retail",
+            "quantity": 600,
+            "due": "2026-11-18"
+          }
+        ]
+      },
+      "terms": {
+        "SUP-NORD": {
+          "unit_prices": {
+            "BOT-750": "12.50"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30",
+          "valid_until": "2026-12-31"
+        }
+      },
+      "alternatives": {
+        "BOT-750": []
+      }
+    },
+    "PO-1078": {
+      "inventory": {
+        "LUNCH-900": {
+          "available": 120,
+          "as_of": "2026-11-10",
+          "note": "Unallocated usable stock; no other inbound receipts recorded."
+        }
+      },
+      "commitments": {
+        "LUNCH-900": [
+          {
+            "customer": "Elm Stores",
+            "quantity": 350,
+            "due": "2026-11-16"
+          },
+          {
+            "customer": "DTC replenishment",
+            "quantity": 200,
+            "due": "2026-11-23"
+          }
+        ]
+      },
+      "terms": {
+        "SUP-NORD": {
+          "unit_prices": {
+            "LUNCH-900": "18.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30",
+          "valid_until": "2026-12-31"
+        }
+      },
+      "alternatives": {
+        "LUNCH-900": [
+          {
+            "supplier": "Baltic Components (fictional)",
+            "quantity": 250,
+            "earliest_arrival": "2026-11-13",
+            "status": "Indicative availability; no reservation or approved purchase"
+          }
+        ]
+      }
+    },
+    "PO-1095": {
+      "inventory": {
+        "TOTE-01": {
+          "available": 200,
+          "as_of": "2026-11-10",
+          "note": "Unallocated usable stock; no other inbound receipts recorded."
+        }
+      },
+      "commitments": {
+        "TOTE-01": []
+      },
+      "terms": {
+        "SUP-NORD": {
+          "unit_prices": {
+            "TOTE-01": "8.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30",
+          "valid_until": "2026-12-31"
+        }
+      },
+      "alternatives": {
+        "TOTE-01": []
+      }
+    },
+    "PO-1036": {
+      "inventory": {
+        "MUG-350": {
+          "available": "100",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "MUG-350": []
+      },
+      "terms": {
+        "SUP-MUG": {
+          "unit_prices": {
+            "MUG-350": "6.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "MUG-350": []
+      }
+    },
+    "PO-1039": {
+      "inventory": {
+        "JAR-500": {
+          "available": "200",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "JAR-500": []
+      },
+      "terms": {
+        "SUP-JAR": {
+          "unit_prices": {
+            "JAR-500": "4.50"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "JAR-500": []
+      }
+    },
+    "PO-1051": {
+      "inventory": {
+        "BRUSH-01": {
+          "available": "100",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "BRUSH-01": []
+      },
+      "terms": {
+        "SUP-BRUSH": {
+          "unit_prices": {
+            "BRUSH-01": "3.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "BRUSH-01": []
+      }
+    },
+    "PO-1060": {
+      "inventory": {
+        "CUP-200": {
+          "available": "50",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "CUP-200": []
+      },
+      "terms": {
+        "SUP-CUP": {
+          "unit_prices": {
+            "CUP-200": "5.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "CUP-200": []
+      }
+    },
+    "PO-1064": {
+      "inventory": {
+        "MAT-01": {
+          "available": "50",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "MAT-01": []
+      },
+      "terms": {
+        "SUP-MAT": {
+          "unit_prices": {
+            "MAT-01": "7.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "MAT-01": []
+      }
+    },
+    "PO-1071": {
+      "inventory": {
+        "NAPKIN-01": {
+          "available": "50",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "NAPKIN-01": []
+      },
+      "terms": {
+        "SUP-NAPKIN": {
+          "unit_prices": {
+            "NAPKIN-01": "2.50"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "NAPKIN-01": []
+      }
+    },
+    "PO-1102": {
+      "inventory": {
+        "BASKET-01": {
+          "available": "50",
+          "as_of": "2026-11-10"
+        }
+      },
+      "commitments": {
+        "BASKET-01": []
+      },
+      "terms": {
+        "SUP-BASKET": {
+          "unit_prices": {
+            "BASKET-01": "11.00"
+          },
+          "currency": "EUR",
+          "payment_terms": "Net 30"
+        }
+      },
+      "alternatives": {
+        "BASKET-01": []
+      }
+    }
+  },
+  "sample_orders": [
+    "PO-1042",
+    "PO-1078",
+    "PO-1095",
+    "PO-1036",
+    "PO-1039",
+    "PO-1051",
+    "PO-1060",
+    "PO-1064",
+    "PO-1071",
+    "PO-1102"
+  ]
+}

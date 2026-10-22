@@ -1,0 +1,14 @@
+NORTHSTAR GOODS
+PURCHASE ORDER
+Order ID: PO-1095
+Supplier ID: SUP-NORD
+Supplier: Nordlicht Manufacturing (fictional)
+Payment terms: Net 30
+
+SKU | description | quantity | unit_price | currency | delivery_date
+TOTE-01 | Canvas market tote | 500 | 8.00 | EUR | 2026-11-20
+
+Delivery to Northstar Goods, Berlin distribution centre. Prices exclude VAT. Please reference the PO on invoices.
+
+Issued by: Northstar Goods Procurement
+Fictional portfolio sample; no real transaction.

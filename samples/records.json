@@ -1,0 +1,208 @@
+{
+  "PO-1042": {
+    "title": "Quantity shortfall",
+    "po": {
+      "order_id": "PO-1042",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "lines": [
+        {
+          "sku": "BOT-750",
+          "description": "750 ml insulated bottle",
+          "quantity": 1000,
+          "unit_price": "12.50",
+          "currency": "EUR",
+          "delivery_date": "2026-11-12"
+        }
+      ]
+    },
+    "confirmation": {
+      "order_id": "PO-1042",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "lines": [
+        {
+          "sku": "BOT-750",
+          "description": "750 ml insulated bottle",
+          "quantity": 800,
+          "unit_price": "12.50",
+          "currency": "EUR",
+          "delivery_date": "2026-11-12"
+        }
+      ],
+      "notes": "The balance of 200 units is pending production allocation; we cannot yet confirm a dispatch date."
+    },
+    "inventory": {
+      "BOT-750": {
+        "available": 150,
+        "as_of": "2026-11-02",
+        "note": "Unallocated usable stock; no other inbound receipts recorded."
+      }
+    },
+    "commitments": {
+      "BOT-750": [
+        {
+          "customer": "DTC replenishment",
+          "quantity": 450,
+          "due": "2026-11-14"
+        },
+        {
+          "customer": "Haven Retail",
+          "quantity": 600,
+          "due": "2026-11-18"
+        }
+      ]
+    },
+    "terms": {
+      "SUP-NORD": {
+        "unit_prices": {
+          "BOT-750": "12.50"
+        },
+        "currency": "EUR",
+        "payment_terms": "Net 30",
+        "valid_until": "2026-12-31"
+      }
+    },
+    "alternatives": {
+      "BOT-750": []
+    }
+  },
+  "PO-1078": {
+    "title": "Delivery delay",
+    "po": {
+      "order_id": "PO-1078",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "lines": [
+        {
+          "sku": "LUNCH-900",
+          "description": "900 ml lunch box",
+          "quantity": 600,
+          "unit_price": "18.00",
+          "currency": "EUR",
+          "delivery_date": "2026-11-12"
+        }
+      ]
+    },
+    "confirmation": {
+      "order_id": "PO-1078",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "lines": [
+        {
+          "sku": "LUNCH-900",
+          "description": "900 ml lunch box",
+          "quantity": 600,
+          "unit_price": "18.00",
+          "currency": "EUR",
+          "delivery_date": "2026-11-26"
+        }
+      ],
+      "notes": "Production scheduling has moved arrival to 26 November. Please acknowledge receipt."
+    },
+    "inventory": {
+      "LUNCH-900": {
+        "available": 120,
+        "as_of": "2026-11-02",
+        "note": "Unallocated usable stock; no other inbound receipts recorded."
+      }
+    },
+    "commitments": {
+      "LUNCH-900": [
+        {
+          "customer": "Elm Stores",
+          "quantity": 350,
+          "due": "2026-11-16"
+        },
+        {
+          "customer": "DTC replenishment",
+          "quantity": 200,
+          "due": "2026-11-23"
+        }
+      ]
+    },
+    "terms": {
+      "SUP-NORD": {
+        "unit_prices": {
+          "LUNCH-900": "18.00"
+        },
+        "currency": "EUR",
+        "payment_terms": "Net 30",
+        "valid_until": "2026-12-31"
+      }
+    },
+    "alternatives": {
+      "LUNCH-900": [
+        {
+          "supplier": "Baltic Components (fictional)",
+          "quantity": 250,
+          "earliest_arrival": "2026-11-13",
+          "status": "Indicative availability; no reservation or approved purchase"
+        }
+      ]
+    }
+  },
+  "PO-1095": {
+    "title": "Commercial terms",
+    "po": {
+      "order_id": "PO-1095",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "Net 30",
+      "lines": [
+        {
+          "sku": "TOTE-01",
+          "description": "Canvas market tote",
+          "quantity": 500,
+          "unit_price": "8.00",
+          "currency": "EUR",
+          "delivery_date": "2026-11-20"
+        }
+      ]
+    },
+    "confirmation": {
+      "order_id": "PO-1095",
+      "supplier_id": "SUP-NORD",
+      "supplier": "Nordlicht Manufacturing (fictional)",
+      "payment_terms": "50% advance, balance before dispatch",
+      "lines": [
+        {
+          "sku": "TOTE-01",
+          "description": "Canvas market tote",
+          "quantity": 500,
+          "unit_price": "8.80",
+          "currency": "EUR",
+          "delivery_date": "2026-11-20"
+        }
+      ],
+      "notes": "Our revised price and advance-payment schedule apply to this confirmation. Please advise your acceptance."
+    },
+    "inventory": {
+      "TOTE-01": {
+        "available": 200,
+        "as_of": "2026-11-02",
+        "note": "Unallocated usable stock; no other inbound receipts recorded."
+      }
+    },
+    "commitments": {
+      "TOTE-01": []
+    },
+    "terms": {
+      "SUP-NORD": {
+        "unit_prices": {
+          "TOTE-01": "8.00"
+        },
+        "currency": "EUR",
+        "payment_terms": "Net 30",
+        "valid_until": "2026-12-31"
+      }
+    },
+    "alternatives": {
+      "TOTE-01": []
+    }
+  }
+}

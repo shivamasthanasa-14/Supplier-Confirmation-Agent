@@ -1,0 +1,19 @@
+NORDLICHT MANUFACTURING
+ORDER CONFIRMATION
+To: Northstar Goods Procurement
+Date: 2 November 2026
+Thank you for your order. We confirm the following supply schedule.
+Order ID: PO-1095
+Supplier ID: SUP-NORD
+Supplier: Nordlicht Manufacturing (fictional)
+Payment terms: 50% advance, balance before dispatch
+
+SKU | description | quantity | unit_price | currency | delivery_date
+TOTE-01 | Canvas market tote | 500 | 8.80 | EUR | 2026-11-20
+
+Our revised price and advance-payment schedule apply to this confirmation. Please advise your acceptance.
+
+Kind regards,
+Anna Keller
+Supplier Sales Administration
+Fictional portfolio sample; no real transaction.
